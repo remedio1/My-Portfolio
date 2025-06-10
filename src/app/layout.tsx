@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="font-family">
-      <body className="bg-gray-900 text-gray-100">
+      <body className="bg-gray-50 text-gray-100">
         <Header/>
         {children}
       </body>
