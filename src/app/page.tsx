@@ -1,12 +1,9 @@
 
+import { redirect } from 'next/navigation';
 
-import ProfileCard from '@/components/ProfileCard'
-import React from 'react'
+import { i18n } from '@/lib/i18n-config';
 
-export default function page() {
-  return (
-    <div>
-      <ProfileCard/>
-    </div>
-  )
+export default function RootPage() {
+  
+  redirect(`/${i18n.defaultLocale}`);
 }
