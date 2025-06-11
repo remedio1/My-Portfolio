@@ -26,12 +26,10 @@ export default function ProfileCard() {
           </div>
         </div>
         <div className="pt-10">
-            <h2 className="text-2xl font-semibold text-gray-900">Aleh Araujo</h2>
-            <p className="text-gray-600 mt-2">Full Stack Developer</p>
-            <p className="mt-4 text-gray-700">
-                Passionate about building web applications and learning new
-                technologies. Always eager to take on new challenges and improve my
-                skills.
+            <h2 className="text-2xl font-semibold text-gray-900">Alexandre Ferreira de Araújo</h2>
+            <p className="text-gray-600 ">D&A Intern at Siemens Healthineers | Undergraduate Student in Computer Science at UAM</p>
+            <p className="mt-1 text-gray-400">
+                São Paulo - Brasil
             </p>
         </div>
       </div>

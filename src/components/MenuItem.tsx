@@ -23,3 +23,4 @@ const MenuItem: React.FC<MenuItemProps> = ({ text, href, icon: Icon }) => {
 }
 
 export default MenuItem;
+

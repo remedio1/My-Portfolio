@@ -7,12 +7,7 @@
 @theme {
   --font-inter: "Inter", Helvetica, Arial, sans-serif;
   --font-family: "Inter Tight", Helvetica, Arial, sans-serif;
+  --text-size-medium: 20px;
 }
 
-module.exports = {
-  i18n: {
-    defaultLocale: "pt",
-    locales: ["en", "fr", "es", "pt"],
-  },
-  localePath: path.resolve("./public/locales"),
-}
+
