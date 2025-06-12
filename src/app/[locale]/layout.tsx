@@ -2,6 +2,7 @@ import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import "../globals.css";
+import {getMessages} from 'next-intl/server';
 
 // Components
 import Header from "@/components/Header";
@@ -20,11 +21,17 @@ export default async function LanguageLayout ({
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+
+  const messages = await getMessages();
   return (
     <html lang= { locale } className="font-family">
       <body className="bg-gray-50 text-gray-100">
+        <NextIntlClientProvider locale={locale} messages={messages}>
         <Header />
-        <main><NextIntlClientProvider>{children}</NextIntlClientProvider></main>
+        <main>
+          {children}
+        </main>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

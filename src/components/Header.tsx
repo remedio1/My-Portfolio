@@ -1,3 +1,4 @@
+'use client';
 import Link from "next/link";
 import React from "react";
 import RevealingText from "./RevealingText";
@@ -5,6 +6,10 @@ import MenuItem from "./MenuItem";
 import { FaLinkedin, FaInstagram , FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { useTranslations } from "next-intl";
+import LanguageSwitcher from './LanguageSwitcher';
+
+
+
 
 
 
@@ -24,12 +29,12 @@ export default function Header() {
           />
         </Link>
       </div>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-2 ">
         <MenuItem href = "https://www.linkedin.com/in/aleh223/" text="" icon = {FaLinkedin} />
         <MenuItem href= "https://github.com/remedio1" text=""icon={FaGithub} />
         <MenuItem href = "https://www.instagram.com/aleh_.araujo/" text="" icon = {FaInstagram} />
         <MenuItem href = "mailto:aleh22k1@gmail.com" text="" icon={SiGmail} />
-        
+        <LanguageSwitcher/>
         
       </div>
     </header>

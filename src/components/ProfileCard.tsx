@@ -34,7 +34,7 @@ export default function ProfileCard() {
             <h2 className="text-2xl font-semibold text-gray-900">Alexandre Ferreira de Araújo</h2>
             <p className="text-gray-600 ">{t('bio')}</p>
             <p className="mt-1 text-gray-400">
-                São Paulo - Brasil
+              {t('local')}
             </p>
         </div>
       </div>
