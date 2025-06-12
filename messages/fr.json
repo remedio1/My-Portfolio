@@ -1,0 +1,18 @@
+{
+  "messages": {
+    "header": "Mon Portfolio",
+    "description": "Ceci est mon portfolio, où vous pouvez trouver des informations sur moi, mes projets et comment me contacter."
+  },
+  "profile": {
+    "name": "Alexandre Ferreira de Araújo",
+    "title": "Développeur Web",
+    "bio": "Stagiaire en Digital & Automation (D&A) chez Siemens Healthineers | Étudiant de premier cycle en Informatique à l'UAM",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js"
+    ]
+  }
+}

@@ -1,6 +1,11 @@
 import Image from "next/image";
+import {useTranslations} from 'next-intl';
+
+
 
 export default function ProfileCard() {
+  const t = useTranslations('profile');
+  
   return (
     <div className="max-w-md mx-auto bg-white rounded-xl shadow-md  mt-5 overflow-hidden md:max-w-3xl">
       <div className=" w-full h-52 relative overflow-hidden">
@@ -27,7 +32,7 @@ export default function ProfileCard() {
         </div>
         <div className="pt-10">
             <h2 className="text-2xl font-semibold text-gray-900">Alexandre Ferreira de Araújo</h2>
-            <p className="text-gray-600 ">D&A Intern at Siemens Healthineers | Undergraduate Student in Computer Science at UAM</p>
+            <p className="text-gray-600 ">{t('bio')}</p>
             <p className="mt-1 text-gray-400">
                 São Paulo - Brasil
             </p>

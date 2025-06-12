@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap");
 
 @import "tailwindcss";
 
 @theme {
   --font-inter: "Inter", Helvetica, Arial, sans-serif;
   --font-family: "Inter Tight", Helvetica, Arial, sans-serif;
-  --text-size-medium: 20px;
+  --text-size: 20px;
 }
 
 
