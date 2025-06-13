@@ -10,7 +10,7 @@ export default function ProfileCard() {
     <div className="max-w-md mx-auto bg-white rounded-xl shadow-md  mt-5 overflow-hidden md:max-w-3xl">
       <div className=" w-full h-52 relative overflow-hidden">
         <Image
-          src={"/amba.png"}
+          src={"/amb.png"}
           alt="Background Image"
           fill
           className="object-cover"

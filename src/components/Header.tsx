@@ -18,7 +18,7 @@ import LanguageSwitcher from './LanguageSwitcher';
 export default function Header() {
   const t = useTranslations("messages");
   return (
-    <header className=" p-5 flex justify-between items-center shadow-md text-gray-900">
+    <header className=" p-5 flex justify-between items-center shadow-md text-gray-900 bg-gray-50">
       <div className=" ">
         <Link href="/" className=" flex items-center">
           <RevealingText
@@ -29,7 +29,7 @@ export default function Header() {
           />
         </Link>
       </div>
-      <div className="flex items-center gap-2 ">
+      <div className="flex items-center gap-2 text-cyan-900">
         <MenuItem href = "https://www.linkedin.com/in/aleh223/" text="" icon = {FaLinkedin} />
         <MenuItem href= "https://github.com/remedio1" text=""icon={FaGithub} />
         <MenuItem href = "https://www.instagram.com/aleh_.araujo/" text="" icon = {FaInstagram} />
