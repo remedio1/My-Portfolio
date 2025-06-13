@@ -1,19 +1,43 @@
 {
-    "messages" : {
-        "header" : "Meu Portfólio",
-        "description" : "Este é o meu portfólio, onde você pode encontrar informações sobre mim, meus projetos e como entrar em contato."
+  "messages": {
+    "header": "Meu Portfólio",
+    "description": "Este é o meu portfólio, onde você pode encontrar informações sobre mim, meus projetos e como entrar em contato."
+  },
+  "profile": {
+    "name": "Alexandre Ferreira de Araújo",
+    "title": "Desenvolvedor Web",
+    "bio": "Estagiário de Digital e Automação (D&A) na Siemens Healthineers | Estudante de bacharelado em Ciência da Computação na UAM",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+    "local": "São Paulo, Brasil",
+    "whatido": "Eu construo soluções para a web e para o mundo.",
+    "about": "Sou um estudante de Ciência da Computação e Estagiário de Digital & Automação na Siemens Healthineers, apaixonado por transformar problemas complexos em software funcional e intuitivo. Minha jornada na tecnologia é movida pela curiosidade e pelo desejo de sempre aprender algo novo.",
+    "contact": "Entre em contato",
+    "projects": "Projetos"
+  },
+  "Skills": {
+    "comunicação_eficaz": {
+      "name": "Comunicação Eficaz",
+      "description": "Adquiri esta habilidade através de anos de experiência em atendimento ao cliente. Em Via Mobilidade, fui responsável por lidar com passageiros, melhorando a clareza e o entendimento das informações fornecidas. Na Siemens Healthineers, continuo a aprimorar essa habilidade ao interagir com colegas e clientes, garantindo que as informações sejam transmitidas de forma clara e precisa."
     },
-    "profile" : {
-        "name" : "Alexandre Ferreira de Araújo",
-        "title" : "Desenvolvedor Web",
-        "bio" : "Estagiário de Digital e Automação (D&A) na Siemens Healthineers | Estudante de bacharelado em Ciência da Computação na UAM",
-        "skills" : [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "React",
-            "Node.js"
-        ],
-        "local" : "São Paulo, Brasil"
+    "trabalho_em_equipe": {
+      "name": "Trabalho em Equipe",
+      "description": "Minha experiência em ambientes colaborativos, como na Via Mobilidade e Siemens Healthineers, me ensinou a importância de trabalhar em conjunto para alcançar objetivos comuns. Participei de projetos onde a colaboração foi essencial para o sucesso, aprendendo a ouvir e integrar diferentes perspectivas."
+    },
+    "resolução_de_problemas": {
+      "name": "Resolução de Problemas",
+      "description": "Desenvolvi esta habilidade ao enfrentar desafios técnicos e operacionais, tanto na Via Mobilidade quanto na Siemens Healthineers. Aprendi a analisar problemas, identificar soluções viáveis e implementar mudanças eficazes, sempre buscando a melhoria contínua."
+    },
+    "proatividade": {
+      "name": "Proatividade",
+      "description": "Minha proatividade foi demonstrada quando, na Siemens Healthineers, identifiquei uma oportunidade de automatizar um processo manual de verificação de hash, o que economizou aproximadamente 10 horas de trabalho por semana para a equipe."
+    },
+    "gerenciamento_de_tempo": {
+      "name": "Gerenciamento de Tempo",
+      "description": "Aprendi a gerenciar meu tempo de forma eficiente utilizando técnicas como a Matriz de Eisenhower e ferramentas como o Trello. Isso me permitiu equilibrar múltiplas responsabilidades no projeto de syngo.vias, garantindo que todos os marcos fossem alcançados no prazo."
+    },
+    "empatia": {
+      "name": "Empatia",
+      "description": "A empatia é uma habilidade essencial que desenvolvi ao longo dos anos, especialmente em ambientes de atendimento ao cliente. Na Via Mobilidade, aprendi a entender as necessidades e preocupações dos passageiros, o que me ajudou a oferecer um serviço mais humano e eficaz. Na Siemens Healthineers, continuo a praticar a empatia ao colaborar com colegas e clientes, buscando sempre compreender suas perspectivas."
     }
+  }
 }

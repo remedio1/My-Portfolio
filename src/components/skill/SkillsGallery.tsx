@@ -22,7 +22,7 @@ const containerVariants = {
 export default function SkillsGallery() {
   return (
     <motion.div
-      className="flex items-center gap-1"
+      className="flex items-center "
       variants={containerVariants}
       initial="hidden"
       animate="visible"

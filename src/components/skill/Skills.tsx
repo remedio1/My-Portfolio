@@ -12,19 +12,20 @@ interface SkillsProps {
 const itemVariants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1 },
-  transition: { duration: 0.5, ease: "easeInOut" },
+
+  transition: { duration: 2, ease: "easeInOut" },
 };
 
 export function SkillsIcon({ skill }: SkillsProps) {
-  const { name, Icon,  } = skill;
+  const { name, Icon } = skill;
   return (
     <motion.div
       variants={itemVariants}
-      className="flex-col flex items-center p-3 rounded-lg"
+      className="flex-col flex items-center gap-2 p-2 rounded-lg"
       //hover
-      whileHover={{ scale: 1.3, transition: { duration: 0.3 } }}
+      whileHover={{ scale: 1.2, transition: { duration: 0.3 } }}
     >
-      <Icon className="text-2xl md:text-4xl text-amber-500 items-center" />
+      <Icon className="text-2xl md:text-4xl text-cyan-900 items-center" />
 
       <p className="text-sm font-medium text-gray-800">{name}</p>
     </motion.div>
