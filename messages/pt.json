@@ -15,6 +15,11 @@
     "projects": "Projetos"
   },
   "Skills": {
+    "header": {
+      "hardskill": "Tecnologias:",
+      "softskills": "Habilidades e Soft Skills:"
+    },
+
     "comunicação_eficaz": {
       "name": "Comunicação Eficaz",
       "description": "Adquiri esta habilidade através de anos de experiência em atendimento ao cliente. Em Via Mobilidade, fui responsável por lidar com passageiros, melhorando a clareza e o entendimento das informações fornecidas. Na Siemens Healthineers, continuo a aprimorar essa habilidade ao interagir com colegas e clientes, garantindo que as informações sejam transmitidas de forma clara e precisa."
@@ -39,5 +44,16 @@
       "name": "Empatia",
       "description": "A empatia é uma habilidade essencial que desenvolvi ao longo dos anos, especialmente em ambientes de atendimento ao cliente. Na Via Mobilidade, aprendi a entender as necessidades e preocupações dos passageiros, o que me ajudou a oferecer um serviço mais humano e eficaz. Na Siemens Healthineers, continuo a praticar a empatia ao colaborar com colegas e clientes, buscando sempre compreender suas perspectivas."
     }
+  },
+  
+  "journey": {
+    "title": "A Minha Jornada",
+    "paragraphs": [
+      "Desde criança, a curiosidade sempre foi meu principal motor. O famoso \"fuçador\", eu desmontava e explorava tudo ao meu redor. Quando meu primeiro computador chegou, um universo de possibilidades se abriu. Mais do que um usuário, tornei-me um solucionador de problemas autodidata, mergulhando em cada desafio que surgia.",
+      "Em 2022, essa paixão encontrou um caminho profissional com o início do meu bacharelado em Ciência da Computação. Foi na academia que a prática encontrou a teoria, e pude aprofundar meus conhecimentos em tecnologias como Java e SQL, sempre com foco em criar soluções robustas e eficientes.",
+      "Recentemente, expandi minhas fronteiras para o desenvolvimento web, dominando HTML, CSS, JavaScript e React, e explorando a criação de sites dinâmicos e responsivos. Essa jornada me levou, em 2024, a uma oportunidade incrível como estagiário na Siemens Healthineers, onde aplico minhas habilidades em projetos de qualidade e automação, impactando diretamente o setor de saúde.",
+      "Minha meta é clara: continuar crescendo como Engenheiro de Software, utilizando minha criatividade e minhas habilidades técnicas para construir um futuro onde a tecnologia facilita e melhora a vida das pessoas."
+    ]
   }
+
 }

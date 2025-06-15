@@ -1,24 +1,51 @@
-'use client'
-import React from 'react'
-import SkillsGallery from '../skill/SkillsGallery'
-import SoftGallery from '../skill/SoftGallery'
-
+"use client";
+import React from "react";
+import SkillsGallery from "../skill/SkillsGallery";
+import SoftGallery from "../skill/SoftGallery";
+import { useTranslations } from "next-intl";
+import { motion } from "framer-motion";
 
 export default function SkillsText() {
+  const containerVariants = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+        delay : 0.6
+      },
+    },
+  };
+
+  const t = useTranslations("Skills");
   return (
-    <div className='max-w-md mx-auto bg-white rounded-xl shadow-md mt-4  md:max-w-3xl p-6  '>
-      <div className='text-size font-bold text-gray-900 mb-1 '>
-        Tecnologias:
-      </div>
-        <div className='flex '>
+    <div className="max-w-md mx-auto bg-white rounded-xl shadow-md mt-4  md:max-w-3xl p-6  ">
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={containerVariants}
+        className="text-size font-bold text-gray-900 mb-1 "
+      >
+        {t("header.hardskill")}
+      </motion.div>
+      <div className="flex ">
         <SkillsGallery />
-        </div>
-        <div className='text-size font-bold text-gray-900 '>
-        Habilidades e Soft Skills:
       </div>
-        <div className=''>
-          <SoftGallery/>
-        </div>
+      
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={containerVariants}
+        
+        className="text-size font-bold text-gray-900 "
+      >
+        {t("header.softskills")}
+      </motion.div>
+      <div className="">
+        <SoftGallery />
+      </div>
     </div>
-  )
+  );
 }

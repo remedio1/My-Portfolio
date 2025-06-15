@@ -1,9 +1,9 @@
 // components/SkillCard.tsx
-'use client';
+"use client";
 
-import { useState, useRef, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Skill } from './SoftData';
+import { useState, useRef, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Skill } from "./SoftData";
 
 interface SkillCardProps {
   skill: Skill;
@@ -23,23 +23,30 @@ const SkillCard = ({ skill }: SkillCardProps) => {
       }
     };
     if (isPopoverOpen) {
-      document.addEventListener('mousedown', handleClickOutside);
+      document.addEventListener("mousedown", handleClickOutside);
     }
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [isPopoverOpen]);
 
   // Define a cor base e a cor quando o popover está aberto
-  const baseBgColor = 'bg-cyan-900 dark:bg:cyan-900';
-  const hoverBgColor = 'hover:bg-cyan-800 hover:dark:bg:cyan-800';
-  const activeBgColor = 'bg-cyan-700 dark:bg:cyan-700'; 
+  const baseBgColor = "bg-cyan-900 dark:bg:cyan-900";
+  const hoverBgColor = "hover:bg-cyan-800 hover:dark:bg:cyan-800";
+  const activeBgColor = "bg-cyan-700 dark:bg:cyan-700";
+
+  const itemVariants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+
+    transition: { duration: 2, ease: "easeInOut", delay: 0.6 },
+  };
 
   return (
-    <div ref={cardRef} className="relative w-full h-full"> 
-      
+    <div ref={cardRef} className="relative w-full h-full">
       <motion.div
-      whileHover={{ scale: 1.05 }}
+        whileHover={{ scale: 1.05 }}
+        variants={itemVariants}
         onClick={togglePopover}
         // Aplica a cor ativa condicionalmente
         className={`p-4 text-white rounded-lg shadow-md cursor-pointer transition-colors w-full h-full flex items-center justify-center  text-center ${
@@ -56,7 +63,7 @@ const SkillCard = ({ skill }: SkillCardProps) => {
             initial={{ opacity: 0, y: 10, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 10, scale: 0.95 }}
-            transition={{ duration: 0.15, ease: 'easeInOut' }}
+            transition={{ duration: 0.15, ease: "easeInOut" }}
             // Aumentamos o z-index para garantir que fique na frente
             // Posicionado abaixo do card com um pequeno espaço
             className="absolute bottom-full left-1/2 -translate-x-1/2 -translate-y-3 mt-2 bg-gray-800 dark:bg-gray-800 border border-gray-700 dark:border-gray-700 rounded-md shadow-lg z-30 w-64"

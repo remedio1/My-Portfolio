@@ -13,7 +13,7 @@ const itemVariants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1 },
 
-  transition: { duration: 2, ease: "easeInOut" },
+  transition: { duration: 2, ease: "easeInOut", delay :0.6 },
 };
 
 export function SkillsIcon({ skill }: SkillsProps) {

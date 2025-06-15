@@ -6,14 +6,42 @@
   "profile": {
     "name": "Alexandre Ferreira de Araújo",
     "title": "Développeur Web",
-    "bio": "Stagiaire en Digital & Automation (D&A) chez Siemens Healthineers | Étudiant de premier cycle en Informatique à l'UAM",
-    "skills": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React",
-      "Node.js"
-    ],
-    "local" : "São Paulo, Brésil"
+    "bio": "Stagiaire en Numérique et Automatisation(N&A) chez Siemens Healthineers | Étudiant en Licence en Informatique à l'UAM",
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+    "local": "São Paulo, Brésil",
+    "whatido": "Je construis des solutions pour le web et pour le monde.",
+    "about": "Je suis un étudiant en Informatique et Stagiaire en Numérique & Automatisation chez Siemens Healthineers, passionné par la transformation de problèmes complexes en logiciels fonctionnels et intuitifs. Mon parcours technologique est motivé par la curiosité et le désir d'apprendre toujours quelque chose de nouveau.",
+    "contact": "Contactez-moi",
+    "projects": "Projets"
+  },
+  "Skills": {
+    "header": {
+      "hardskill": "Technologies :",
+      "softskills": "Compétences et savoir-être :"
+    },
+    "comunicação_eficaz": {
+      "name": "Communication efficace",
+      "description": "J'ai acquis cette compétence grâce à des années d'expérience en service client. Chez Via Mobilidade, j'étais responsable de la gestion des passagers, améliorant la clarté et la compréhension des informations fournies. Chez Siemens Healthineers, je continue d'améliorer cette compétence en interagissant avec mes collègues et clients, en veillant à ce que les informations soient transmises de manière claire et précise."
+    },
+    "trabalho_em_equipe": {
+      "name": "Travail d'équipe",
+      "description": "Mon expérience dans des environnements collaboratifs, comme chez Via Mobilidade et Siemens Healthineers, m'a appris l'importance de travailler ensemble pour atteindre des objectifs communs. J'ai participé à des projets où la collaboration était essentielle au succès, apprenant à écouter et à intégrer différentes perspectives."
+    },
+    "resolução_de_problemas": {
+      "name": "Résolution de problèmes",
+      "description": "J'ai développé cette compétence en relevant des défis techniques et opérationnels, tant chez Via Mobilidade que chez Siemens Healthineers. J'ai appris à analyser les problèmes, à identifier des solutions viables et à mettre en œuvre des changements efficaces, toujours dans un souci d'amélioration continue."
+    },
+    "proatividade": {
+      "name": "Proactivité",
+      "description": "Ma proactivité a été démontrée lorsque, chez Siemens Healthineers, j'ai identifié une opportunité d'automatiser un processus manuel de vérification de hachage, ce qui a permis d'économiser environ 10 heures de travail par semaine pour l'équipe."
+    },
+    "gerenciamento_de_tempo": {
+      "name": "Gestion du temps",
+      "description": "J'ai appris à gérer mon temps efficacement en utilisant des techniques comme la Matrice d'Eisenhower et des outils comme Trello. Cela m'a permis d'équilibrer de multiples responsabilités dans le projet syngo.vias, en garantissant que tous les jalons soient atteints dans les délais."
+    },
+    "empatia": {
+      "name": "Empathie",
+      "description": "L'empathie est une compétence essentielle que j'ai développée au fil des ans, notamment dans les environnements de service client. Chez Via Mobilidade, j'ai appris à comprendre les besoins et les préoccupations des passagers, ce qui m'a aidé à offrir un service plus humain et efficace. Chez Siemens Healthineers, je continue de pratiquer l'empathie en collaborant avec mes collègues et clients, cherchant toujours à comprendre leurs perspectives."
+    }
   }
 }

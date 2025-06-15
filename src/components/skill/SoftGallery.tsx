@@ -5,6 +5,7 @@
 import { useTranslations } from 'next-intl';
 import SoftModal from './softModal';
 import { skillsKeys, Skill } from "./SoftData";
+import { motion } from 'framer-motion';
 
 export default function HomePage() {
   // 1. Chame o Hook DENTRO do componente. Esta é a forma correta.
@@ -17,7 +18,27 @@ export default function HomePage() {
     description: t(skillKey.descriptionKey),
   }));
 
+  const containerVariants = {
+  hidden: {
+    opacity: 0,
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+      
+    },
+  },
+};
+
   return (
+  <motion.div
+  variants={containerVariants}
+      initial="hidden"
+      animate="visible" >
     <main className="container mx-auto p-4 flex-col items-center">
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 flex-col items-center">
         {/* array já traduzido para renderizar os cards */}
@@ -26,5 +47,6 @@ export default function HomePage() {
         ))}
       </div>
     </main>
+</motion.div>
   );
 }

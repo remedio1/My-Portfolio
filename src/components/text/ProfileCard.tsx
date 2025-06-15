@@ -1,14 +1,39 @@
+'use client';
 import Image from "next/image";
 import {useTranslations} from 'next-intl';
-
+import { motion } from "framer-motion";
 
 
 export default function ProfileCard() {
   const t = useTranslations('profile');
+
+  const containerVariants = {
+  hidden: {
+    opacity: 0,
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
+};
   
   return (
-    <div className="max-w-md mx-auto bg-white rounded-xl shadow-md  mt-5 overflow-hidden md:max-w-3xl">
-      <div className=" w-full h-52 relative overflow-hidden">
+    <div 
+    className="max-w-md mx-auto bg-white rounded-xl shadow-md  mt-5 overflow-hidden md:max-w-3xl">
+      
+    <motion.div
+    variants={containerVariants}
+    initial="hidden"
+    animate="visible"
+    whileInView="visible" >
+      <div 
+      
+      className=" w-full h-52 relative overflow-hidden">
         <Image
           src={"/amba.png"}
           alt="Background Image"
@@ -38,6 +63,7 @@ export default function ProfileCard() {
             </p>
         </div>
       </div>
+      </motion.div>
     </div>
   );
 }
