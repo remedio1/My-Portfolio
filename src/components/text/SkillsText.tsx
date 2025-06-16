@@ -14,18 +14,19 @@ export default function SkillsText() {
       opacity: 1,
       transition: {
         staggerChildren: 0.1,
-        delay : 0.6
+        
+        
       },
     },
   };
 
   const t = useTranslations("Skills");
   return (
-    <div className="max-w-md mx-auto bg-white rounded-xl shadow-md mt-4  md:max-w-3xl p-6  ">
+    <div className=" mx-auto bg-white rounded-xl shadow-md mt-4   p-6  ">
       <motion.div
         initial="hidden"
-        animate="visible"
         variants={containerVariants}
+        whileInView={"visible"}
         className="text-size font-bold text-gray-900 mb-1 "
       >
         {t("header.hardskill")}
@@ -33,12 +34,11 @@ export default function SkillsText() {
       <div className="flex ">
         <SkillsGallery />
       </div>
-      
+
       <motion.div
         initial="hidden"
-        animate="visible"
         variants={containerVariants}
-        
+        whileInView={"visible"}
         className="text-size font-bold text-gray-900 "
       >
         {t("header.softskills")}

@@ -45,7 +45,7 @@
       "description": "A empatia é uma habilidade essencial que desenvolvi ao longo dos anos, especialmente em ambientes de atendimento ao cliente. Na Via Mobilidade, aprendi a entender as necessidades e preocupações dos passageiros, o que me ajudou a oferecer um serviço mais humano e eficaz. Na Siemens Healthineers, continuo a praticar a empatia ao colaborar com colegas e clientes, buscando sempre compreender suas perspectivas."
     }
   },
-  
+
   "journey": {
     "title": "A Minha Jornada",
     "paragraphs": [
@@ -54,6 +54,32 @@
       "Recentemente, expandi minhas fronteiras para o desenvolvimento web, dominando HTML, CSS, JavaScript e React, e explorando a criação de sites dinâmicos e responsivos. Essa jornada me levou, em 2024, a uma oportunidade incrível como estagiário na Siemens Healthineers, onde aplico minhas habilidades em projetos de qualidade e automação, impactando diretamente o setor de saúde.",
       "Minha meta é clara: continuar crescendo como Engenheiro de Software, utilizando minha criatividade e minhas habilidades técnicas para construir um futuro onde a tecnologia facilita e melhora a vida das pessoas."
     ]
-  }
+  },
 
+  "projects": {
+    "evoagencia": {
+      "title": "Evo Agência",
+      "description": "Desenvolvimento de um site para uma agência de marketing digital.",
+      "link": "https://evoagencia.com.br",
+      "technologies": ["HTML", "CSS", "JavaScript", "React"]
+    },
+    "ImdbClone": {
+      "title": "IMDb Clone",
+      "description": "Desenvolvimento de um clone do IMDb utilizando a API do The Movie Database (TMDb).",
+      "link": "https://github.com/usuario/imdb-clone",
+      "technologies": ["HTML", "CSS", "JavaScript", "React"]
+    },
+    "Pokedex": {
+      "title": "Pokedex",
+      "description": "Desenvolvimento de uma Pokedex utilizando a API do PokeAPI.",
+      "link": "https://github.com/usuario/pokedex",
+      "technologies": ["HTML", "CSS", "JavaScript", "React"]
+    },
+    "ChessGame" : {
+      "title": "Chess Game",
+      "description": "Desenvolvimento de um jogo de xadrez utilizando Java e Swing.",
+      "link": "https://github.com/usuario/chess-game",
+      "technologies": ["Java", "Swing"]
+    }
+  }
 }

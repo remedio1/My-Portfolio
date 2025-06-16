@@ -43,5 +43,14 @@
       "name": "Empatía",
       "description": "La empatía es una habilidad esencial que desarrollé a lo largo de los años, especialmente en entornos de atención al cliente. En Via Mobilidade, aprendí a comprender las necesidades y preocupaciones de los pasajeros, lo que me ayudó a ofrecer un servicio más humano y eficaz. En Siemens Healthineers, sigo practicando la empatía al colaborar con colegas y clientes, buscando siempre comprender sus perspectivas."
     }
-  }
+  },
+  "journey": {
+      "title": "Mi Trayectoria",
+      "paragraphs": [
+        "Desde niño, la curiosidad siempre fue mi principal motor. El famoso \"cacharrero\", desarmaba y exploraba todo a mi alrededor. Cuando llegó mi primera computadora, se abrió un universo de posibilidades. Más que un usuario, me convertí en un solucionador de problemas autodidacta, sumergiéndome en cada desafío que surgía.",
+        "En 2022, esta pasión encontró un camino profesional con el inicio de mi licenciatura en Ciencias de la Computación. Fue en la academia donde la práctica encontró la teoría, y pude profundizar mis conocimientos en tecnologías como Java y SQL, siempre con el objetivo de crear soluciones robustas y eficientes.",
+        "Recientemente, expandí mis fronteras al desarrollo web, dominando HTML, CSS, JavaScript y React, y explorando la creación de sitios dinámicos y responsivos. Este viaje me llevó, en 2024, a una oportunidad increíble como becario en Siemens Healthineers, donde aplico mis habilidades en proyectos de calidad y automatización, impactando directamente el sector de la salud.",
+        "Mi meta es clara: seguir creciendo como Ingeniero de Software, utilizando mi creatividad y mis habilidades técnicas para construir un futuro donde la tecnología facilite y mejore la vida de las personas."
+      ]
+    }
 }

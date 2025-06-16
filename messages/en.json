@@ -43,5 +43,14 @@
       "name": "Empathy",
       "description": "Empathy is an essential skill I've developed over the years, especially in customer service environments. At Via Mobilidade, I learned to understand passengers' needs and concerns, which helped me provide a more human and effective service. At Siemens Healthineers, I continue to practice empathy by collaborating with colleagues and clients, always seeking to understand their perspectives."
     }
-  }
+  },
+  "journey": {
+      "title": "My Journey",
+      "paragraphs": [
+        "Since childhood, curiosity has always been my main driver. The famous \"tinkerer,\" I would dismantle and explore everything around me. When my first computer arrived, a universe of possibilities opened up. More than just a user, I became a self-taught problem-solver, diving into every challenge that arose.",
+        "In 2022, this passion found a professional path with the start of my Computer Science bachelor's degree. It was in academia that practice met theory, and I was able to deepen my knowledge in technologies like Java and SQL, always with a focus on creating robust and efficient solutions.",
+        "Recently, I expanded my horizons to web development, mastering HTML, CSS, JavaScript, and React, and exploring the creation of dynamic and responsive websites. This journey led me, in 2024, to an incredible opportunity as an intern at Siemens Healthineers, where I apply my skills in quality and automation projects, directly impacting the healthcare sector.",
+        "My goal is clear: to continue growing as a Software Engineer, using my creativity and technical skills to build a future where technology facilitates and improves people's lives."
+      ]
+    }
 }

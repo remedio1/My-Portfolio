@@ -43,5 +43,14 @@
       "name": "Empathie",
       "description": "L'empathie est une compétence essentielle que j'ai développée au fil des ans, notamment dans les environnements de service client. Chez Via Mobilidade, j'ai appris à comprendre les besoins et les préoccupations des passagers, ce qui m'a aidé à offrir un service plus humain et efficace. Chez Siemens Healthineers, je continue de pratiquer l'empathie en collaborant avec mes collègues et clients, cherchant toujours à comprendre leurs perspectives."
     }
-  }
+  },
+  "journey": {
+      "title": "Mon Parcours",
+      "paragraphs": [
+        "Depuis l'enfance, la curiosité a toujours été mon principal moteur. Le fameux \"bidouilleur\", je démontais et explorais tout ce qui m'entourait. Lorsque mon premier ordinateur est arrivé, un univers de possibilités s'est ouvert. Plus qu'un simple utilisateur, je suis devenu un résolveur de problèmes autodidacte, plongeant dans chaque défi qui se présentait.",
+        "En 2022, cette passion a trouvé une voie professionnelle avec le début de mon baccalauréat en Informatique. C'est à l'université que la pratique a rencontré la théorie, et j'ai pu approfondir mes connaissances dans des technologies comme Java et SQL, toujours en me concentrant sur la création de solutions robustes et efficaces.",
+        "Récemment, j'ai élargi mes horizons vers le développement web, maîtrisant HTML, CSS, JavaScript et React, et explorant la création de sites dynamiques et réactifs. Ce parcours m'a mené, en 2024, à une incroyable opportunité en tant que stagiaire chez Siemens Healthineers, où j'applique mes compétences dans des projets de qualité et d'automatisation, impactant directement le secteur de la santé.",
+        "Mon objectif est clair : continuer à grandir en tant qu'ingénieur logiciel, en utilisant ma créativité et mes compétences techniques pour construire un avenir où la technologie facilite et améliore la vie des gens."
+      ]
+    }
 }

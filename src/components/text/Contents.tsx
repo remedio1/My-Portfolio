@@ -9,21 +9,22 @@ export default function Contents() {
     visible: {
       opacity: 1,
       transition: {
-        duration: 0.5, // Duração da transição do contêiner
+        duration: 1, // Duração da transição do contêiner
         
         staggerChildren: 0.2,
-        delay: 0.2,
+        
       },
     },
   };
 
   // Definindo as variantes para os itens filhos
 const itemVariants = {
-  hidden: { opacity: 0 },
+  hidden: { opacity: 0 , x : -50},
   visible: { opacity: 1, 
-    y: 0, // Animação de entrada
+    x: 0, // Animação de entrada
     transition: {
-      duration: 0.5, // Duração da transição de cada item
+      duration: 0.5,
+      delay : 0.3 // Duração da transição de cada item
       
        // Atraso para cada item aparecer após o contêiner
     },
@@ -34,40 +35,41 @@ const itemVariants = {
 
 
   const t = useTranslations("profile");
-  const aboutTextLines = t("about")
-    .split("\n")
-    .filter((line) => line.trim() !== "");
-
+   
+  
   return (
-    <div className="max-w-md mx-auto bg-white rounded-xl shadow-md mt-4 overflow-hidden md:max-w-3xl">
+    <div className=" mx-auto bg-white rounded-xl shadow-md mt-4 overflow-hidden ">
       <div className="text-gray-900 relative p-6">
         <motion.div
           initial="hidden"
-          animate="visible" // Ou whileInView="visible" se quiser animar ao rolar
+          whileInView={"visible"} // Ou whileInView="visible" se quiser animar ao rolar
           variants={containerVariants}
         >
           {/* Título: Será animado como um filho direto do container */}
-          <h2
+          <motion.h2
+           variants={itemVariants}
             className="font-extrabold text-size"
             
           >
             {t("whatido")}
-          </h2>
+          </motion.h2>
 
           {/* Texto 'About': Cada linha será um motion.p para ter o efeito cascata */}
           <div className="mt-2 max-w-md text-gray-600 md:max-w-2xl">
-            {aboutTextLines.map((line, index) => (
-              <motion.p key={index} variants={itemVariants} className="mb-2">
-                {line}
+            
+              <motion.p  variants={itemVariants} className="mb-2">
+                {t('about')}
               </motion.p>
-            ))}
+            
           </div>
 
           {/* Botões: O div dos botões será animado como um filho direto do container */}
           <div
             className="mt-2 flex flex-col sm:flex-row gap-2"
           >
-            <div className="div mt-2">
+            <motion.div 
+             variants={itemVariants}
+            className="div mt-2">
               <button className="flex gap-2">
                 <a
                   href="#contato"
@@ -82,7 +84,7 @@ const itemVariants = {
                   {t("projects")}
                 </a>
               </button>
-            </div>
+            </motion.div>
           </div>
         </motion.div>
       </div>
