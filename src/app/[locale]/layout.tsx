@@ -7,7 +7,7 @@ import {getMessages} from 'next-intl/server';
 // Components
 import Header from "@/components/Header";
 
-// Metadados dinâmicos para cada idioma
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 export default async function LanguageLayout ({
   children,

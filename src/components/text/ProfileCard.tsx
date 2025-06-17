@@ -19,7 +19,7 @@ export default function ProfileCard() {
   };
 
   return (
-    <div className=" bg-white rounded-xl shadow-md  overflow-hidden ">
+    <div className=" bg-white rounded-xl shadow-md  overflow-hidden md:max-w-2xl mt-4 ">
       <motion.div
         variants={containerVariants}
         initial="hidden"

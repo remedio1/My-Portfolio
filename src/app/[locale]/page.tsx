@@ -10,10 +10,13 @@ import Projects from "@/components/text/Projects";
 
 export default function page() {
   return (
-    <div className="max-w-4xl justify-center mx-auto">
-      <div className="flex justify-center mx-auto mt-5 gap-4">
+    <div className=" lg:max-w-4xl md:max-3xl sm:max-w-2xl flex flex-col items-center justify-center min-h-screen md:mx-auto px-5">
+      <div className="md:flex md:flex-row justify-center md:mt-4 md:gap-4 ">
         <ProfileCard />
+        
         <SideContainer />
+
+
       </div>
       <Contents />
       <SkillsText />

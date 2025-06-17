@@ -14,15 +14,13 @@ export default function SkillsText() {
       opacity: 1,
       transition: {
         staggerChildren: 0.1,
-        
-        
       },
     },
   };
 
   const t = useTranslations("Skills");
   return (
-    <div className=" mx-auto bg-white rounded-xl shadow-md mt-4   p-6  ">
+    <div className=" bg-white rounded-xl shadow-md mt-4 p-6 ">
       <motion.div
         initial="hidden"
         variants={containerVariants}
@@ -32,7 +30,7 @@ export default function SkillsText() {
       >
         {t("header.hardskill")}
       </motion.div>
-      <div className="flex ">
+      <div className="flex">
         <SkillsGallery />
       </div>
 

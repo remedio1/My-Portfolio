@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import { SpotifyCurrentlyPlaying } from '../LiveElements/Spotify/SpotifyCurrentlyPlaying';
 
 export default function Contents() {
   const containerVariants = {
@@ -38,7 +39,7 @@ const itemVariants = {
    
   
   return (
-    <div className=" mx-auto bg-white rounded-xl shadow-md mt-4 overflow-hidden ">
+    <div className=" bg-white rounded-xl shadow-md mt-4 overflow-hidden max-w-4xl">
       <div className="text-gray-900 relative p-6">
         <motion.div
           initial="hidden"
@@ -56,7 +57,7 @@ const itemVariants = {
           </motion.h2>
 
           {/* Texto 'About': Cada linha será um motion.p para ter o efeito cascata */}
-          <div className="mt-2 max-w-md text-gray-600 md:max-w-2xl">
+          <div className="mt-2 text-gray-600 ">
             
               <motion.p  variants={itemVariants} className="mb-2">
                 {t('about')}
@@ -85,6 +86,7 @@ const itemVariants = {
                   {t("projects")}
                 </a>
               </button>
+              <SpotifyCurrentlyPlaying/>
             </motion.div>
           </div>
         </motion.div>
