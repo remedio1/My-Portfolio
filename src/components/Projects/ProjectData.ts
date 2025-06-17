@@ -5,29 +5,29 @@ export interface Project {
   link: string;
 }
 
-export const ProjectKeys = [
+export const ProjectKeys : Project[] = [
   {
-    titleKey: "evoagencia.title",
-    descriptionKey: "evoagencia.description",
-    technologiesKey: "evoagencia.technologies",
-    linkKey: "evoagencia.link",
+    title: "evoagencia.title",
+    description: "evoagencia.description",
+    technologies: "evoagencia.technologies",
+    link: "evoagencia.link",
   },
   {
-    titleKey: "ImdbClone.title",
-    descriptionKey: "ImdbClone.description",
-    technologiesKey: "ImdbClone.technologies",
-    linkKey: "ImdbClone.link",
+    title: "ImdbClone.title",
+    description: "ImdbClone.description",
+    technologies: "ImdbClone.technologies",
+    link: "ImdbClone.link",
   },
   {
-    titleKey: "Pokedex.title",
-    descriptionKey: "Pokedex.description",
-    technologiesKey: "Pokedex.technologies",
-    linkKey: "Pokedex.link",
+    title: "Pokedex.title",
+    description: "Pokedex.description",
+    technologies: "Pokedex.technologies",
+    link: "Pokedex.link",
   },
   {
-    titleKey: "ChessGame.title",
-    descriptionKey: "ChessGame.description",
-    technologiesKey: "ChessGame.technologies",
-    linkKey: "ChessGame.link",
+    title: "ChessGame.title",
+    description: "ChessGame.description",
+    technologies: "ChessGame.technologies",
+    link: "ChessGame.link",
   },
 ];

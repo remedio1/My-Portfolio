@@ -23,12 +23,12 @@ export default function ProfileCard() {
       <motion.div
         variants={containerVariants}
         initial="hidden"
-        animate="visible"
+        viewport={{ once: true, amount: 0.4 }}
         whileInView="visible"
       >
         <div className=" w-full h-52 relative overflow-hidden">
           <Image
-            src={"/amba.png"}
+            src={"/ama.png"}
             alt="Background Image"
             fill
             className="object-cover"

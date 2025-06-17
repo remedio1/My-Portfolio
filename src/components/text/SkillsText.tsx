@@ -27,6 +27,7 @@ export default function SkillsText() {
         initial="hidden"
         variants={containerVariants}
         whileInView={"visible"}
+        viewport={{ once: true, amount: 0.4 }}
         className="text-size font-bold text-gray-900 mb-1 "
       >
         {t("header.hardskill")}
@@ -39,6 +40,7 @@ export default function SkillsText() {
         initial="hidden"
         variants={containerVariants}
         whileInView={"visible"}
+        viewport={{ once: true, amount: 0.4 }}
         className="text-size font-bold text-gray-900 "
       >
         {t("header.softskills")}

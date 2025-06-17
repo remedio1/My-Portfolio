@@ -26,7 +26,8 @@ export default function SkillsGallery() {
       className="flex items-center "
       variants={containerVariants}
       initial="hidden"
-      animate="visible"
+      whileInView={"visible"}
+      viewport={{ once: true, amount: 0.4 }}
     >
       {skillsData.map((skill) => (
         <SkillsIcon key={skill.name} skill={skill} />

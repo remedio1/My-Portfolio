@@ -57,23 +57,27 @@
   },
 
   "projects": {
+    "header": {
+      "title": "Meus projetos",
+      "call-up": "Visualizar projeto"
+    },
     "evoagencia": {
       "title": "Evo Agência",
       "description": "Desenvolvimento de um site para uma agência de marketing digital.",
       "link": "https://evoagencia.com.br",
-      "technologies": ["HTML", "CSS", "JavaScript", "React"]
+      "technologies": ["HTML", "CSS", "Wordpress", "Elementor"]
     },
     "ImdbClone": {
       "title": "IMDb Clone",
       "description": "Desenvolvimento de um clone do IMDb utilizando a API do The Movie Database (TMDb).",
       "link": "https://github.com/usuario/imdb-clone",
-      "technologies": ["HTML", "CSS", "JavaScript", "React"]
+      "technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"]
     },
     "Pokedex": {
       "title": "Pokedex",
       "description": "Desenvolvimento de uma Pokedex utilizando a API do PokeAPI.",
       "link": "https://github.com/usuario/pokedex",
-      "technologies": ["HTML", "CSS", "JavaScript", "React"]
+      "technologies": ["HTML", "CSS", "JavaScript"]
     },
     "ChessGame" : {
       "title": "Chess Game",

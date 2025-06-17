@@ -44,6 +44,7 @@ const itemVariants = {
           initial="hidden"
           whileInView={"visible"} // Ou whileInView="visible" se quiser animar ao rolar
           variants={containerVariants}
+          viewport={{ once: true, amount: 0.4 }}
         >
           {/* Título: Será animado como um filho direto do container */}
           <motion.h2

@@ -40,6 +40,7 @@ export default function Journey() {
           initial="hidden"
           variants={sectionVariants}
           whileInView={"visible"}
+          viewport={{ once: true, amount: 0.4 }}
         >
           <motion.h2
             className="div text-size font-bold text-gray-900"
