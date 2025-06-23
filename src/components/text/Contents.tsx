@@ -2,7 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { SpotifyCurrentlyPlaying } from '../LiveElements/Spotify/SpotifyCurrentlyPlaying';
+
+
 
 export default function Contents() {
   const containerVariants = {
@@ -86,7 +87,7 @@ const itemVariants = {
                   {t("projects")}
                 </a>
               </button>
-              <SpotifyCurrentlyPlaying/>
+              
             </motion.div>
           </div>
         </motion.div>

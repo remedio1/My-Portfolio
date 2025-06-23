@@ -45,12 +45,48 @@
     }
   },
   "journey": {
-      "title": "Mon Parcours",
-      "paragraphs": [
-        "Depuis l'enfance, la curiosité a toujours été mon principal moteur. Le fameux \"bidouilleur\", je démontais et explorais tout ce qui m'entourait. Lorsque mon premier ordinateur est arrivé, un univers de possibilités s'est ouvert. Plus qu'un simple utilisateur, je suis devenu un résolveur de problèmes autodidacte, plongeant dans chaque défi qui se présentait.",
-        "En 2022, cette passion a trouvé une voie professionnelle avec le début de mon baccalauréat en Informatique. C'est à l'université que la pratique a rencontré la théorie, et j'ai pu approfondir mes connaissances dans des technologies comme Java et SQL, toujours en me concentrant sur la création de solutions robustes et efficaces.",
-        "Récemment, j'ai élargi mes horizons vers le développement web, maîtrisant HTML, CSS, JavaScript et React, et explorant la création de sites dynamiques et réactifs. Ce parcours m'a mené, en 2024, à une incroyable opportunité en tant que stagiaire chez Siemens Healthineers, où j'applique mes compétences dans des projets de qualité et d'automatisation, impactant directement le secteur de la santé.",
-        "Mon objectif est clair : continuer à grandir en tant qu'ingénieur logiciel, en utilisant ma créativité et mes compétences techniques pour construire un avenir où la technologie facilite et améliore la vie des gens."
-      ]
+    "title": "Mon Parcours",
+    "paragraphs": [
+      "Depuis l'enfance, la curiosité a toujours été mon principal moteur. Le fameux \"bidouilleur\", je démontais et explorais tout ce qui m'entourait. Lorsque mon premier ordinateur est arrivé, un univers de possibilités s'est ouvert. Plus qu'un simple utilisateur, je suis devenu un résolveur de problèmes autodidacte, plongeant dans chaque défi qui se présentait.",
+      "En 2022, cette passion a trouvé une voie professionnelle avec le début de mon baccalauréat en Informatique. C'est à l'université que la pratique a rencontré la théorie, et j'ai pu approfondir mes connaissances dans des technologies comme Java et SQL, toujours en me concentrant sur la création de solutions robustes et efficaces.",
+      "Récemment, j'ai élargi mes horizons vers le développement web, maîtrisant HTML, CSS, JavaScript et React, et explorant la création de sites dynamiques et réactifs. Ce parcours m'a mené, en 2024, à une incroyable opportunité en tant que stagiaire chez Siemens Healthineers, où j'applique mes compétences dans des projets de qualité et d'automatisation, impactant directement le secteur de la santé.",
+      "Mon objectif est clair : continuer à grandir en tant qu'ingénieur logiciel, en utilisant ma créativité et mes compétences techniques pour construire un avenir où la technologie facilite et améliore la vie des gens."
+    ]
+  },
+
+  "projects": {
+    "header": {
+      "title": "Mes projets",
+      "call-up": "Voir le projet"
+    },
+    "evoagencia": {
+      "title": "Evo Agência",
+      "description": "Développement d'un site web pour une agence de marketing digital.",
+      "link": "https://evoagencia.com.br",
+      "technologies": ["HTML", "CSS", "Wordpress", "Elementor"]
+    },
+    "ImdbClone": {
+      "title": "Clone IMDb",
+      "description": "Développement d'un clone d'IMDb en utilisant l'API de The Movie Database (TMDb).",
+      "link": "https://github.com/usuario/imdb-clone",
+      "technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"]
+    },
+    "Pokedex": {
+      "title": "Pokedex",
+      "description": "Développement d'un Pokedex en utilisant l'API de PokeAPI.",
+      "link": "https://github.com/usuario/pokedex",
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+    "ChessGame": {
+      "title": "Jeu d'échecs",
+      "description": "Développement d'un jeu d'échecs en utilisant Java et Swing.",
+      "link": "https://github.com/usuario/chess-game",
+      "technologies": ["Java", "Swing"]
     }
+  },
+  "Spotify": {
+    "Card": {
+      "error": "Erreur lors du chargement des données Spotify"
+    }
+  }
 }

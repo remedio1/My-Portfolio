@@ -28,7 +28,7 @@ export default function ProfileCard() {
       >
         <div className=" w-full h-52 relative overflow-hidden">
           <Image
-            src={"/ama.png"}
+            src={"/amba.png"}
             alt="Background Image"
             fill
             className="object-cover"

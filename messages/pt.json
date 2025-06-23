@@ -85,5 +85,12 @@
       "link": "https://github.com/usuario/chess-game",
       "technologies": ["Java", "Swing"]
     }
+  },
+
+  "Spotify": {
+    "Card" : {
+      "error" : "Erro ao carregar dados do Spotify",
+      "musicerror" : "Música não está disponível"
+    }
   }
 }

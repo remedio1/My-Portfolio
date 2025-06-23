@@ -4,6 +4,8 @@ import {routing} from '@/i18n/routing';
 import "../globals.css";
 import {getMessages} from 'next-intl/server';
 
+import { QueryProvider } from '../Providers/QueryProvider';
+
 // Components
 import Header from "@/components/Header";
 
@@ -27,11 +29,15 @@ export default async function LanguageLayout ({
     <html lang= { locale } className="font-family">
       <body className="bg-slate-800 text-gray-100">
         <NextIntlClientProvider locale={locale} messages={messages}>
+          
         <Header />
-        <main>
+        
+          <QueryProvider>
           {children}
-        </main>
+          </QueryProvider>
+        
         </NextIntlClientProvider>
+        
       </body>
     </html>
   );

@@ -45,12 +45,48 @@
     }
   },
   "journey": {
-      "title": "Mi Trayectoria",
-      "paragraphs": [
-        "Desde niño, la curiosidad siempre fue mi principal motor. El famoso \"cacharrero\", desarmaba y exploraba todo a mi alrededor. Cuando llegó mi primera computadora, se abrió un universo de posibilidades. Más que un usuario, me convertí en un solucionador de problemas autodidacta, sumergiéndome en cada desafío que surgía.",
-        "En 2022, esta pasión encontró un camino profesional con el inicio de mi licenciatura en Ciencias de la Computación. Fue en la academia donde la práctica encontró la teoría, y pude profundizar mis conocimientos en tecnologías como Java y SQL, siempre con el objetivo de crear soluciones robustas y eficientes.",
-        "Recientemente, expandí mis fronteras al desarrollo web, dominando HTML, CSS, JavaScript y React, y explorando la creación de sitios dinámicos y responsivos. Este viaje me llevó, en 2024, a una oportunidad increíble como becario en Siemens Healthineers, donde aplico mis habilidades en proyectos de calidad y automatización, impactando directamente el sector de la salud.",
-        "Mi meta es clara: seguir creciendo como Ingeniero de Software, utilizando mi creatividad y mis habilidades técnicas para construir un futuro donde la tecnología facilite y mejore la vida de las personas."
-      ]
+    "title": "Mi Trayectoria",
+    "paragraphs": [
+      "Desde niño, la curiosidad siempre fue mi principal motor. El famoso \"cacharrero\", desarmaba y exploraba todo a mi alrededor. Cuando llegó mi primera computadora, se abrió un universo de posibilidades. Más que un usuario, me convertí en un solucionador de problemas autodidacta, sumergiéndome en cada desafío que surgía.",
+      "En 2022, esta pasión encontró un camino profesional con el inicio de mi licenciatura en Ciencias de la Computación. Fue en la academia donde la práctica encontró la teoría, y pude profundizar mis conocimientos en tecnologías como Java y SQL, siempre con el objetivo de crear soluciones robustas y eficientes.",
+      "Recientemente, expandí mis fronteras al desarrollo web, dominando HTML, CSS, JavaScript y React, y explorando la creación de sitios dinámicos y responsivos. Este viaje me llevó, en 2024, a una oportunidad increíble como becario en Siemens Healthineers, donde aplico mis habilidades en proyectos de calidad y automatización, impactando directamente el sector de la salud.",
+      "Mi meta es clara: seguir creciendo como Ingeniero de Software, utilizando mi creatividad y mis habilidades técnicas para construir un futuro donde la tecnología facilite y mejore la vida de las personas."
+    ]
+  },
+
+  "projects": {
+    "header": {
+      "title": "Mis proyectos",
+      "call-up": "Ver proyecto"
+    },
+    "evoagencia": {
+      "title": "Evo Agência",
+      "description": "Desarrollo de un sitio web para una agencia de marketing digital.",
+      "link": "https://evoagencia.com.br",
+      "technologies": ["HTML", "CSS", "Wordpress", "Elementor"]
+    },
+    "ImdbClone": {
+      "title": "Clon de IMDb",
+      "description": "Desarrollo de un clon de IMDb utilizando la API de The Movie Database (TMDb).",
+      "link": "https://github.com/usuario/imdb-clone",
+      "technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"]
+    },
+    "Pokedex": {
+      "title": "Pokedex",
+      "description": "Desarrollo de una Pokedex utilizando la API de PokeAPI.",
+      "link": "https://github.com/usuario/pokedex",
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+    "ChessGame": {
+      "title": "Juego de ajedrez",
+      "description": "Desarrollo de un juego de ajedrez utilizando Java y Swing.",
+      "link": "https://github.com/usuario/chess-game",
+      "technologies": ["Java", "Swing"]
     }
+  },
+  "Spotify": {
+    "Card": {
+      "error": "Error al cargar datos de Spotify"
+    }
+  }
 }
