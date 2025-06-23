@@ -32,7 +32,7 @@ export default function Journey() {
   const paragraphs = t.raw("paragraphs");
 
   return (
-    <div className=" mx-auto bg-white rounded-xl shadow-md mt-4 overflow-hidden ">
+    <div className="  bg-white rounded-xl shadow-md mt-4 overflow-hidden ">
       <div className="p-6">
         <motion.section
           className=""

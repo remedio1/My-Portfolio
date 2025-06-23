@@ -40,7 +40,7 @@ const itemVariants = {
    
   
   return (
-    <div className=" bg-white rounded-xl shadow-md mt-4 overflow-hidden max-w-4xl">
+    <div className=" bg-white rounded-xl shadow-md mt-4 overflow-hidden">
       <div className="text-gray-900 relative p-6">
         <motion.div
           initial="hidden"

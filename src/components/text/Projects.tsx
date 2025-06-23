@@ -4,6 +4,7 @@ import ProjectGallery from '../Projects/ProjectGallery';
 import { useTranslations } from 'next-intl';
 
 export default function Projects() {
+  
     const t = useTranslations('projects');
   return (
     <div className=' bg-white rounded-xl shadow-md mt-4  p-6'>

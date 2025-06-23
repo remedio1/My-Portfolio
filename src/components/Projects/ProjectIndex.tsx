@@ -10,12 +10,18 @@ interface ProjectProps {
  
 
 export default function ProjectIndex({ projects }: ProjectProps)  {
+  const itemVariants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+
+    transition: { duration: 2, ease: "easeInOut", delay: 0.6 },
+  };
   const t = useTranslations('projects')
   return (
     <AnimatePresence>
       <motion.div
         key={projects.title}
-        
+        variants={itemVariants}
         className="bg-gray-50 hover:bg-gray-100 transition-colors duration-300 p-6 rounded-lg shadow-lg "
       >
         <h2 className="text-2xl font-bold mb-4 text-gray-700 hover:text-gray-900">{projects.title}</h2>

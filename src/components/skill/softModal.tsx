@@ -43,17 +43,17 @@ const SkillCard = ({ skill }: SkillCardProps) => {
   };
 
   return (
-    <div ref={cardRef} className="relative w-full h-full">
+    <div ref={cardRef} className="relative ">
       <motion.div
         whileHover={{ scale: 1.05 }}
         variants={itemVariants}
         onClick={togglePopover}
         // Aplica a cor ativa condicionalmente
-        className={`p-4 text-white rounded-lg shadow-md cursor-pointer transition-colors w-full h-full flex items-center justify-center  text-center ${
+        className={`p-4 text-white rounded-lg shadow-md cursor-pointer transition-colors flex items-center justify-center text-center ${
           isPopoverOpen ? activeBgColor : `${baseBgColor} ${hoverBgColor}`
         }`}
       >
-        <p className="font-semibold">{skill.name}</p>
+        <p className="font-medium text-size">{skill.name}</p>
       </motion.div>
 
       <AnimatePresence>

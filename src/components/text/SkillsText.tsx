@@ -20,7 +20,10 @@ export default function SkillsText() {
 
   const t = useTranslations("Skills");
   return (
-    <div className=" bg-white rounded-xl shadow-md mt-4 p-6 w-4xl ">
+    <div className="bg-white rounded-xl shadow-md mt-4 flex">
+      <div className="p-6 relative">
+
+      
       <motion.div
         initial="hidden"
         variants={containerVariants}
@@ -42,9 +45,8 @@ export default function SkillsText() {
         className="text-size font-bold text-gray-900 "
       >
         {t("header.softskills")}
-      </motion.div>
-      <div className="">
         <SoftGallery />
+      </motion.div>
       </div>
     </div>
   );
