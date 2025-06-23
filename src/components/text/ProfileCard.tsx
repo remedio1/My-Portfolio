@@ -19,7 +19,7 @@ export default function ProfileCard() {
   };
 
   return (
-    <div className=" bg-white rounded-xl shadow-md  overflow-hidden md:max-w-2xl mt-4 ">
+    <div className=" bg-white rounded-xl shadow-md  overflow-hidden md:max-w-2xl mt-2 ">
       <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -28,7 +28,7 @@ export default function ProfileCard() {
       >
         <div className=" w-full h-52 relative overflow-hidden">
           <Image
-            src={"/amba.png"}
+            src={"/ama.png"}
             alt="Background Image"
             fill
             className="object-cover"

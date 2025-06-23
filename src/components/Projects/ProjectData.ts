@@ -10,24 +10,24 @@ export const ProjectKeys : Project[] = [
     title: "evoagencia.title",
     description: "evoagencia.description",
     technologies: "evoagencia.technologies",
-    link: "evoagencia.link",
+    link: "https://evoagencia.com.br",
   },
   {
     title: "ImdbClone.title",
     description: "ImdbClone.description",
     technologies: "ImdbClone.technologies",
-    link: "ImdbClone.link",
+    link: "https://github.com/remedio1/imdbclone",
   },
   {
     title: "Pokedex.title",
     description: "Pokedex.description",
     technologies: "Pokedex.technologies",
-    link: "Pokedex.link",
+    link: "https://github.com/remedio1/Podekex",
   },
   {
     title: "ChessGame.title",
     description: "ChessGame.description",
     technologies: "ChessGame.technologies",
-    link: "ChessGame.link",
+    link: "https://github.com/remedio1/ChessGame",
   },
 ];

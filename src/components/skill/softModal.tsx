@@ -53,7 +53,7 @@ const SkillCard = ({ skill }: SkillCardProps) => {
           isPopoverOpen ? activeBgColor : `${baseBgColor} ${hoverBgColor}`
         }`}
       >
-        <p className="font-medium text-size">{skill.name}</p>
+        <p className="font-normal">{skill.name}</p>
       </motion.div>
 
       <AnimatePresence>

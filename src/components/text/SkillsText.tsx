@@ -20,34 +20,42 @@ export default function SkillsText() {
 
   const t = useTranslations("Skills");
   return (
-    <div className="bg-white rounded-xl shadow-md mt-4 flex">
-      <div className="p-6 relative">
+    <div className="bg-white rounded-xl shadow-md mt-2 p-6 relative ">
+      <div className="">
+        <motion.div
+          initial="hidden"
+          variants={containerVariants}
+          whileInView={"visible"}
+          viewport={{ once: true, amount: 0.4 }}
+          className="text-size font-bold text-gray-900 mb-1 "
+        >
+          {t("header.hardskill")}
+        </motion.div>
+        <div className="">
+          <SkillsGallery />
+        </div>
 
+        <motion.div
+          initial="hidden"
+          variants={containerVariants}
+          whileInView={"visible"}
+          viewport={{ once: true, amount: 0.4 }}
+          className="text-size font-bold text-gray-900 "
+        >
+          {t("header.softskills")}
+          <SoftGallery />
+          
+
+
+
+
+
+
+
+
+        </motion.div>
+      </div>
       
-      <motion.div
-        initial="hidden"
-        variants={containerVariants}
-        whileInView={"visible"}
-        viewport={{ once: true, amount: 0.4 }}
-        className="text-size font-bold text-gray-900 mb-1 "
-      >
-        {t("header.hardskill")}
-      </motion.div>
-      <div className="flex">
-        <SkillsGallery />
-      </div>
-
-      <motion.div
-        initial="hidden"
-        variants={containerVariants}
-        whileInView={"visible"}
-        viewport={{ once: true, amount: 0.4 }}
-        className="text-size font-bold text-gray-900 "
-      >
-        {t("header.softskills")}
-        <SoftGallery />
-      </motion.div>
-      </div>
     </div>
   );
 }

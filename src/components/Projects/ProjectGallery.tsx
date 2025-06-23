@@ -27,7 +27,7 @@ export default function ProjectGallery() {
     title: t(projectKey.title),
     description: t(projectKey.description),
     technologies: t.raw(projectKey.technologies).join(", "),
-    link: t(projectKey.link),
+    link: (projectKey.link),
   }));
 
   return (

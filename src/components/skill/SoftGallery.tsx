@@ -40,7 +40,7 @@ export default function HomePage() {
       initial="hidden"
       whileInView={"visible"}
       viewport={{ once: true, amount: 0.4 }} >
-    <main className="p-2 flex-col items-center">
+    <main className="p-2 flex-col items-start">
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 flex-col items-center">
         {/* array já traduzido para renderizar os cards */}
         {translatedSkills.map((skill) => (

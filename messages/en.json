@@ -62,31 +62,37 @@
     "evoagencia": {
       "title": "Evo Agência",
       "description": "Development of a website for a digital marketing agency.",
-      "link": "https://evoagencia.com.br",
+
       "technologies": ["HTML", "CSS", "Wordpress", "Elementor"]
     },
     "ImdbClone": {
       "title": "IMDb Clone",
       "description": "Development of an IMDb clone using The Movie Database (TMDb) API.",
-      "link": "https://github.com/usuario/imdb-clone",
+
       "technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"]
     },
     "Pokedex": {
       "title": "Pokedex",
       "description": "Development of a Pokedex using the PokeAPI.",
-      "link": "https://github.com/usuario/pokedex",
+
       "technologies": ["HTML", "CSS", "JavaScript"]
     },
     "ChessGame": {
       "title": "Chess Game",
       "description": "Development of a chess game using Java and Swing.",
-      "link": "https://github.com/usuario/chess-game",
+
       "technologies": ["Java", "Swing"]
     }
   },
   "Spotify": {
     "Card": {
-      "error": "Error loading Spotify data"
+      "error": "Error loading Spotify data",
+      "musicerror": "No music playing at the moment",
+      "nowPlaying": "Currently playing",
+      "recentlyPlayed": "Recently playing"
     }
+  },
+  "SideContainer": {
+    "aboutme": "A bit about me"
   }
 }
