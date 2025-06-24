@@ -19,20 +19,20 @@ export default function ProfileCard() {
   };
 
   return (
-    <div className=" bg-white rounded-xl shadow-md  overflow-hidden md:max-w-2xl mt-2 ">
+    <div className=" bg-white rounded-xl shadow-md overflow-hidden mt-2 ">
       <motion.div
         variants={containerVariants}
         initial="hidden"
         viewport={{ once: true, amount: 0.4 }}
         whileInView="visible"
       >
-        <div className=" w-full h-52 relative overflow-hidden">
+        <div className=" w-full h-64 relative overflow-hidden">
           <Image
-            src={"/ama.png"}
+            src={"/fullmetal-alchemist-the-gate.PNG"}
             alt="Background Image"
-            fill
             className="object-cover"
             quality={100}
+            fill
           ></Image>
         </div>
         <div className="relative p-6">

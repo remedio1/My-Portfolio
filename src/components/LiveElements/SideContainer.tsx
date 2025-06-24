@@ -19,11 +19,12 @@ export default function SideContainer() {
     }
   }
 
+
   const t = useTranslations("SideContainer")
   return (
     <div 
     
-    className=' bg-white rounded-xl shadow-md overflow-hidden mt-2'>
+    className=' bg-white rounded-xl shadow-md overflow-hidden mt-2 md:w-96'>
       <motion.div 
         initial = "hidden"
     whileInView={"visible"}

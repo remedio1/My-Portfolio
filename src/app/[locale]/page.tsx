@@ -7,6 +7,8 @@ import SkillsText from "@/components/text/SkillsText";
 import Journey from "../../components/text/Journey";
 import SideContainer from "@/components/LiveElements/SideContainer";
 import Projects from "@/components/text/Projects";
+import Timeline from "@/components/text/Timeline";
+
 
 export default function page() {
   return (
@@ -20,6 +22,7 @@ export default function page() {
       <SkillsText />
       <Journey />
       <Projects />
+      <Timeline/>
     </div>
   );
 }

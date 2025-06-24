@@ -20,7 +20,7 @@ export default function SkillsText() {
 
   const t = useTranslations("Skills");
   return (
-    <div className="bg-white rounded-xl shadow-md mt-2 p-6 relative ">
+    <div className="bg-white rounded-xl shadow-md mt-2 p-6 container ">
       <div className="">
         <motion.div
           initial="hidden"
