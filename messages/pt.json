@@ -64,38 +64,53 @@
     "evoagencia": {
       "title": "Evo Agência",
       "description": "Desenvolvimento de um site para uma agência de marketing digital.",
-      
+
       "technologies": ["HTML", "CSS", "Wordpress", "Elementor"]
     },
     "ImdbClone": {
       "title": "IMDb Clone",
       "description": "Desenvolvimento de um clone do IMDb utilizando a API do The Movie Database (TMDb).",
-      
+
       "technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"]
     },
     "Pokedex": {
       "title": "Pokedex",
       "description": "Desenvolvimento de uma Pokedex utilizando a API do PokeAPI.",
-      
+
       "technologies": ["HTML", "CSS", "JavaScript"]
     },
-    "ChessGame" : {
+    "ChessGame": {
       "title": "Chess Game",
       "description": "Desenvolvimento de um jogo de xadrez utilizando Java e Swing.",
-      
+
       "technologies": ["Java", "Swing"]
     }
   },
 
   "Spotify": {
-    "Card" : {
-      "error" : "Erro ao carregar dados do Spotify",
-      "musicerror" : "Nenhuma música tocando no momento",
-      "nowPlaying" : "Tocando agora",
-      "recentlyPlayed" : "Tocado recentemente"
+    "Card": {
+      "error": "Erro ao carregar dados do Spotify",
+      "musicerror": "Nenhuma música tocando no momento",
+      "nowPlaying": "Tocando agora",
+      "recentlyPlayed": "Tocado recentemente"
     }
   },
-  "SideContainer" : {
-    "aboutme" : "Um pouco sobre mim"
+  "SideContainer": {
+    "aboutme": "Um pouco sobre mim"
+  },
+
+  "Timeline": {
+    "educaçao": "Educação",
+    "trabalho": "Trabalho"
+  },
+
+  "Education": {
+    "date": "Jul 2022 - Atualmente",
+    "title": "Ciência da computação",
+    "name": "Universidade Anhembi Morumbi",
+    "description": {
+      "1":"Estudo da tecnologia, programação, algoritmos e sistemas inteligentes.",
+      "2": "Com expectativa de formação em 06/2026"
+    }
   }
 }

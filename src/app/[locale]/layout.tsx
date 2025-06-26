@@ -27,7 +27,7 @@ export default async function LanguageLayout ({
   const messages = await getMessages();
   return (
     <html lang= { locale } className="font-family">
-      <body className="bg-slate-800 text-gray-100">
+      <body className="bg-gray-950 text-gray-100">
         <NextIntlClientProvider locale={locale} messages={messages}>
           
         <Header />

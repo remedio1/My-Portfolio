@@ -36,7 +36,7 @@ export default function Contents() {
   const t = useTranslations("profile");
 
   return (
-    <div className=" bg-white rounded-xl shadow-md mt-2 overflow-hidden">
+    <div className=" bg-white rounded-xl shadow-md mt-2 overflow-hidden container ">
       <div className="text-gray-900 relative p-6">
         <motion.div
           initial="hidden"
