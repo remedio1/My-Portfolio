@@ -109,8 +109,44 @@
     "title": "Ciência da computação",
     "name": "Universidade Anhembi Morumbi",
     "description": {
-      "1":"Estudo da tecnologia, programação, algoritmos e sistemas inteligentes.",
+      "1": "Estudo da tecnologia, programação, algoritmos e sistemas inteligentes.",
       "2": "Com expectativa de formação em 06/2026"
+    }
+  },
+
+  "Work": {
+    "JovemAprendiz": {
+      "title": "Jovem Aprendiz",
+      "name": "Via mobilidade",
+      "date": "Dez 2021 - Jan 2023",
+      "description": [
+        "Auxílio a pessoas com deficiência visual, auditiva e mobilidade reduzida.",
+        "Atendimento a chamados dos seguranças e suporte em situações operacionais.",
+        "Esclarecimento de dúvidas e orientação aos usuários da estação.",
+        "Colaboração em equipe e presença ativa para garantir bom atendimento."
+      ]
+    },
+    "SiemensHealthineers": {
+      "title": "Estagiário",
+      "name": "Siemens Healthineers",
+      "date": "Abr 2024 - Atualmente",
+      "description": [
+        "Apoio na automação de processos internos e fluxos digitais da empresa.",
+        "Instalação e suporte de sistemas médicos de reconstrução de imagens",
+        "Atuação em equipe latino-americana especializada em soluções médicas digitais.",
+        "Participação em reuniões de alinhamento com clientes e stakeholders."
+      ]
+    },
+    "Escalante": {
+      "title": "Agente administrativo",
+      "name": "Via mobilidade",
+      "date": "Fev 2023 - Abr 2024",
+      "description": [
+        "Coordenação da equipe de operadores de trem, definindo atividades diárias.",
+        "Controle de escalas: entrada, saída, pausas e horários de almoço.",
+        "Gestão de pessoas com foco em desempenho e ambiente colaborativo.",
+        "Administração de processos e cumprimento de metas operacionais do tráfego ferroviário."
+    ]
     }
   }
 }

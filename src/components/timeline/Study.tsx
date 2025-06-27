@@ -1,15 +1,21 @@
-'use client'
+"use client";
 import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-
 export default function Study() {
-
   const t = useTranslations("Education");
 
-  const Uamicon = () => <Image src= "/uam.jpg" alt="icon" width={50} height={50}></Image>
+  const Uamicon = () => (
+    <Image
+      src="/uam.jpg"
+      alt="icon"
+      width={50}
+      height={50}
+      className="rounded-full"
+    ></Image>
+  );
 
   const timedata = [
     {
@@ -17,8 +23,7 @@ export default function Study() {
       name: t("name"),
       date: t("date"),
       title: t("title"),
-      description: "",
-      details: [],
+      details: [t("description.1"), t("description.2")],
     },
   ];
 
@@ -43,9 +48,8 @@ export default function Study() {
   };
 
   return (
-    <div className=" rounded-xl border-s border-gray-400">
     <motion.ol
-      className="border-s border-gray-600 relative"
+      className="relative border-s border-gray-700"
       initial="hidden"
       variants={containerVariants}
       whileInView={"visible"}
@@ -53,22 +57,34 @@ export default function Study() {
     >
       {timedata.map((item, index) => (
         <motion.li
-          className="mb-10 ms-12"
+          className="mb-10 ms-12 relative"
           variants={itemVariants}
           transition={{ type: "spring", stiffness: 100 }}
           key={index}
         >
-          <span>
+          <span className="absolute -left-8 top-1 flex h-10 w-10 items-center justify-center rounded-full bg-blue-900  ring-4 ring-gray-900 overflow-hidden">
             {item.icon}
           </span>
-            <div>
-              <span>
-                {item.date}
-              </span>
-            </div>
+          <div className="flex flex-col px-6">
+            <span className="text-gray-500 text-sm font-light mb-1 leading-none">
+              {item.date}
+            </span>
+
+            <h3 className="-mt-2">{item.title}</h3>
+            <p className="text-sm text-gray-500 font-light -mt-1">{item.name}</p>
+            <ul className="list-disc">
+              {item.details.map((detail, i) => (
+                <li className="font-semibold text-gray-700 text-small" key={i}>
+                  {detail}
+                </li>
+              ))}
+            </ul>
+            <li>
+              
+            </li>
+          </div>
         </motion.li>
       ))}
     </motion.ol>
-    </div>
   );
 }
