@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { WorkData } from "./WorkData";
 
 // Defina seus componentes de ícone fora do componente principal para evitar recriações
 const Viamobicon = () => (
@@ -11,39 +12,44 @@ const Viamobicon = () => (
     width={50}
     height={50}
     className="rounded-full"
+    key={"Viamobicon"}
   />
 );
 
 const SiemensIcon = () => (
   <Image
     // Corrigi o caminho da imagem para um exemplo, ajuste para o seu arquivo real
-    src="/siemens.png" 
+    src="/siemens.png"
     alt="Logo Siemens Healthineers"
     width={50}
     height={50}
     className="rounded-full"
+    key={"Siemensicon"}
   />
 );
-
+const iconMap: { [key: string]: React.ReactNode } = {
+  Viamobicon: <Viamobicon />,
+  SiemensIcon: <SiemensIcon />,
+};
 
 export default function Work() {
   const t = useTranslations("Work");
 
-  // 1. Crie um array com as chaves na ordem que você quer exibir
-  //    Isso te dá controle total sobre a ordenação das experiências.
-  const experienceKeys = ["SiemensHealthineers", "Escalante", "JovemAprendiz"];
+  interface Data {
+  icon: string;
+  title: string;
+  description: string[];
+  name: string;
+  date: string;
+}
 
-  const getIcon = (experienceKey: string) => {
-    switch (experienceKey) {
-      case "SiemensHealthineers":
-        return <SiemensIcon />;
-      case "JovemAprendiz":
-      case "Escalante":
-        return <Viamobicon />;
-      default:
-        return null; 
-    }
-  };
+  const timedata: Data[] = WorkData.map((work) => ({
+    icon: work.icon,
+    title: t(work.title),
+    description: t.raw(work.description) as string[],
+    name: t(work.name),
+    date: t(work.date),
+  }));
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -65,47 +71,40 @@ export default function Work() {
 
   return (
     <motion.ol
-      className="border-s border-gray-700 relative"
+      className="relative border-s border-gray-700"
       initial="hidden"
-      whileInView={"visible"}
-      viewport={{ once: true, amount: 0.2 }} // Ajustei o amount para iniciar a animação um pouco antes
       variants={containerVariants}
+      whileInView={"visible"}
+      viewport={{ once: true, amount: 0.2 }}
     >
-      {/* 2. Faça o map no array de chaves */}
-      {experienceKeys.map((key) => (
-        <motion.li
-          key={key} // Use a chave da experiência como key, é única e estável
-          className="mb-10 ms-12" // Removi o `relative` daqui, não parecia necessário
+      {timedata.map((item, index) => (
+        <motion.div
+          className="mb-10 ms-12 relative"
           variants={itemVariants}
-          // A transição pode ficar nas variantes do item para ser mais consistente
           transition={{ type: "spring", stiffness: 100 }}
+          key={index}
         >
-          <span className="absolute -left-5 top-0 flex h-10 w-10 items-center justify-center rounded-full bg-blue-900 ring-4 ring-gray-900 overflow-hidden">
-            {/* 3. Chame a função getIcon com a chave atual */}
-            {getIcon(key)}
+          <span className="absolute -left-8 top-1 h-10 w-10 items-center justify-center rounded-full bg-blue-900 ring-4 ring-gray-900 overflow-hidden">
+            {iconMap[item.icon]}
           </span>
-          
-          {/* 4. Busque os dados traduzidos usando a chave (key) */}
-          <h3 className="flex items-center mb-1 text-lg font-semibold text-white">
-            {t(`${key}.title`)}
-            <span className="text-gray-400 font-normal text-base mx-2">@</span>
-            {t(`${key}.name`)}
-          </h3>
-          <time className="block mb-2 text-sm font-normal leading-none text-gray-500">
-            {t(`${key}.date`)}
-          </time>
-          <ul className="list-disc pl-5 space-y-1 text-gray-400">
-             {/* 5. Para iterar sobre a descrição, que é um array no JSON,
-                  você pode fazer um loop. Assumindo que sempre há 4 itens.
-                  Se a quantidade variar, será necessário um ajuste no seu arquivo de tradução.
-             */}
-            {[0, 1, 2, 3].map(index => (
-              <li key={index}>
-                {t(`${key}.description.${index}`)}
-              </li>
-            ))}
-          </ul>
-        </motion.li>
+          <div className="flex flex-col px-6">
+            <span className="text-gray-500 text-sm font-medium mb-1 leading-none">
+              {item.date}
+            </span>
+            <h3 className="-mt-2">{item.title}</h3>
+            <p className="text-sm text-gray-500 font-medium -mt-1">
+              {item.name}
+            </p>
+            <ul className="list-disc px-5"> 
+              {item.description.map((desc : string, i : number) => (
+                <li key={i} className="font-semibold text-gray-700 text-sm">
+                  {desc}
+                </li>
+              ))}
+            
+            </ul>
+          </div>
+        </motion.div>
       ))}
     </motion.ol>
   );

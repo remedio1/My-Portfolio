@@ -23,7 +23,7 @@ export default function Study() {
       name: t("name"),
       date: t("date"),
       title: t("title"),
-      details: [t("description.1"), t("description.2")],
+      details: t.raw("description"),
     },
   ];
 
@@ -66,22 +66,22 @@ export default function Study() {
             {item.icon}
           </span>
           <div className="flex flex-col px-6">
-            <span className="text-gray-500 text-sm font-light mb-1 leading-none">
+            <span className="text-gray-500 text-sm font-medium mb-1 leading-none">
               {item.date}
             </span>
 
             <h3 className="-mt-2">{item.title}</h3>
-            <p className="text-sm text-gray-500 font-light -mt-1">{item.name}</p>
-            <ul className="list-disc">
-              {item.details.map((detail, i) => (
-                <li className="font-semibold text-gray-700 text-small" key={i}>
-                  {detail}
+            <p className="text-sm text-gray-500 font-medium -mt-1">
+              {item.name}
+            </p>
+            <ul className="list-disc px-5">
+              {item.details.map((desc: string, i: number) => (
+                <li key={i} className="font-semibold text-gray-700 text-sm">
+                  {desc}
                 </li>
               ))}
             </ul>
-            <li>
-              
-            </li>
+            
           </div>
         </motion.li>
       ))}

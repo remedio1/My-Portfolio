@@ -108,11 +108,12 @@
     "date": "Jul 2022 - Atualmente",
     "title": "Ciência da computação",
     "name": "Universidade Anhembi Morumbi",
-    "description": {
-      "1": "Estudo da tecnologia, programação, algoritmos e sistemas inteligentes.",
-      "2": "Com expectativa de formação em 06/2026"
-    }
-  },
+    "description": [
+      "Estudo da tecnologia, programação, algoritmos e sistemas inteligentes.",
+      "Com expectativa de formação em 06/2026"
+    ]
+    },
+  
 
   "Work": {
     "JovemAprendiz": {
