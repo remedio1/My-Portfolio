@@ -94,5 +94,54 @@
   },
   "SideContainer": {
     "aboutme": "A bit about me"
+  },
+
+  "Timeline": {
+    "educaçao": "Education",
+    "trabalho": "Work"
+  },
+  "Education": {
+    "date": "Jul 2022 - Currently",
+    "title": "Computer science",
+    "name": "Anhembi Morumbi University",
+    "description": [
+      "Tech study, programming, algorithms and intelligent systems.",
+      "Expected to graduate in 06/2026"
+    ]
+  },
+  "Work": {
+    "JovemAprendiz": {
+      "title": "Trainee",
+      "name": "Via mobilidade",
+      "date": "Dec 2021 - Jan 2023",
+      "description": [
+        "Assistance for people with visual, auditory and reduced mobility deficiences.",
+        "Answering security calls and providing support in operational situations.",
+        "Clarification of doubts and guidance for station users.",
+        "Team work and active presence to ensure good service."
+      ]
+    },
+    "SiemensHealthineers": {
+      "title": "Intern",
+      "name": "Siemens Healthineers",
+      "date": "Apr 2024 - Currently",
+      "description": [
+        "Support in automation of internal and digital processes.",
+        "Installation and support of medical image reconstruction systems",
+        "Work in a Latin American team specialized in digital medical solutions.",
+        "Participation in alignment meetings with clients and stakeholders."
+      ]
+    },
+    "Escalante": {
+      "title": "Administrative officer",
+      "name": "Via mobilidade",
+      "date": "Feb 2023 - Apr 2024",
+      "description": [
+        "Coordinating the team of train operators, defining daily activities.",
+        "Control of schedules: in, out, breaks and lunch times.",
+        "Management of people focused on performance and collaborative environment.",
+        "Management of processes and completing operational traffic tasks."
+    ]
+    }
   }
 }

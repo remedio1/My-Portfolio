@@ -8,6 +8,7 @@ import Journey from "../../components/text/Journey";
 import SideContainer from "@/components/LiveElements/SideContainer";
 import Projects from "@/components/text/Projects";
 import Timeline from "@/components/text/Timeline";
+import Footer from "@/components/text/Footer";
 
 
 export default function page() {
@@ -23,6 +24,7 @@ export default function page() {
       <Journey />
       <Projects />
       <Timeline/>
+      <Footer/>
     </div>
   );
 }

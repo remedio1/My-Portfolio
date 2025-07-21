@@ -19,10 +19,10 @@ const Viamobicon = () => (
 const SiemensIcon = () => (
   <Image
     // Corrigi o caminho da imagem para um exemplo, ajuste para o seu arquivo real
-    src="/siemens.png"
+    src="/siemens-circle-logo.webp"
     alt="Logo Siemens Healthineers"
-    width={50}
-    height={50}
+    width={100}
+    height={100}
     className="rounded-full"
     key={"Siemensicon"}
   />

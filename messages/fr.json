@@ -62,39 +62,87 @@
     "evoagencia": {
       "title": "Evo Agência",
       "description": "Développement d'un site web pour une agence de marketing digital.",
-      
+
       "technologies": ["HTML", "CSS", "Wordpress", "Elementor"]
     },
     "ImdbClone": {
       "title": "Clone IMDb",
       "description": "Développement d'un clone d'IMDb en utilisant l'API de The Movie Database (TMDb).",
-      
+
       "technologies": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"]
     },
     "Pokedex": {
       "title": "Pokedex",
       "description": "Développement d'un Pokedex en utilisant l'API de PokeAPI.",
-      
+
       "technologies": ["HTML", "CSS", "JavaScript"]
     },
     "ChessGame": {
       "title": "Jeu d'échecs",
       "description": "Développement d'un jeu d'échecs en utilisant Java et Swing.",
-      
+
       "technologies": ["Java", "Swing"]
     }
   },
   "Spotify": {
     "Card": {
       "error": "Erreur lors du chargement des données Spotify",
-      "musicerror" : "Aucune musique n'est jouée pour le moment",
-      "nowPlaying" : "Je joue maintenant",
-      "recentlyPlayed" : "Joué récemment"
+      "musicerror": "Aucune musique n'est jouée pour le moment",
+      "nowPlaying": "Je joue maintenant",
+      "recentlyPlayed": "Joué récemment"
     }
   },
-  "SideContainer" : {
-    "aboutme" : "Un peu de moi"
+  "SideContainer": {
+    "aboutme": "Un peu de moi"
+  },
+  "Timeline": {
+    "educaçao": "Éducation",
+    "trabalho": "Travail"
+  },
+
+  "Education": {
+    "date": "Jui 2022 - À l'heure actuelle",
+    "title": "L'informatique",
+    "name": "Université Anhembi Morumbi",
+    "description": [
+      "Étude de la technologie, de la programmation, des algorithmes et des systèmes intelligents.",
+      "Diplôme prévu en juin 2026"
+    ]
+  },
+
+  "Work": {
+    "JovemAprendiz": {
+      "title": "Jeune apprenti",
+      "name": "Via mobilidade",
+      "date": "Déc 2021 - Jan 2023",
+      "description": [
+        "Assistance aux personnes malvoyantes, malentendantes et à mobilité réduite.",
+        "Répondre aux appels de sécurité et apporter un soutien dans les situations opérationnelles.",
+        "Clarification des doutes et conseils aux utilisateurs de la station.",
+        "Collaboration d'équipe et présence active pour assurer un bon service."
+      ]
+    },
+    "SiemensHealthineers": {
+      "title": "Stagiaire",
+      "name": "Siemens Healthineers",
+      "date": "Avr 2024 - À l'heure actuelle",
+      "description": [
+        "Accompagnement dans l'automatisation des processus internes et des flux digitaux au sein de l'entreprise.",
+        "Installation et support de systèmes de reconstruction d'images médicales.",
+        "Travailler dans une équipe latino-américaine spécialisée dans les solutions médicales numériques.",
+        "Participation aux réunions d'alignement avec les clients et les parties prenantes."
+      ]
+    },
+    "Escalante": {
+      "title": "Agent administratif",
+      "name": "Via mobilidade",
+      "date": "Fév 2023 - Avr 2024",
+      "description": [
+        "Coordination de l'équipe d'opérateurs de train, définition des activités quotidiennes.",
+        "Contrôle des quarts de travail : entrées, sorties, pauses et heures de déjeuner.",
+        "Gestion des personnes axée sur la performance et un environnement collaboratif.",
+        "Gestion des processus et respect des objectifs opérationnels du trafic ferroviaire."
+      ]
+    }
   }
 }
-
-

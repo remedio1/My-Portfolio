@@ -94,5 +94,56 @@
   },
   "SideContainer" : {
     "aboutme" : "Un poco sobre mi"
+  },
+  "Timeline": {
+    "educaçao": "Educación",
+    "trabalho": "Trabajo"
+  },
+
+  "Education": {
+    "date": "Jul 2022 - En este momento",
+    "title": "Ciencias de la Computación",
+    "name": "Universidad Anhembi Morumbi",
+    "description": [
+      "Estudio de tecnología, programación, algoritmos y sistemas inteligentes.",
+      "Se espera graduarse en 06/2026"
+    ]
+    },
+  
+
+  "Work": {
+    "JovemAprendiz": {
+      "title": "Joven aprendiz",
+      "name": "Via mobilidade",
+      "date": "Dic 2021 - Ene 2023",
+      "description": [
+        "Asistencia a personas con discapacidad visual, auditiva y movilidad reducida.",
+        "Responder llamadas de seguridad y brindar apoyo en situaciones operativas.",
+        "Aclaración de dudas y orientación a los usuarios de la estación.",
+        "Colaboración en equipo y presencia activa para garantizar un buen servicio."
+      ]
+    },
+    "SiemensHealthineers": {
+      "title": "Aprendiz",
+      "name": "Siemens Healthineers",
+      "date": "Abr 2024 - En este momento",
+      "description": [
+        "Apoyo en la automatización de procesos internos y flujos digitales dentro de la empresa.",
+        "Instalación y soporte de sistemas de reconstrucción de imágenes médicas.",
+        "Trabajar en un equipo latinoamericano especializado en soluciones médicas digitales.",
+        "Participación en reuniones de alineación con clientes y partes interesadas."
+      ]
+    },
+    "Escalante": {
+      "title": "Agente administrativo",
+      "name": "Via mobilidade",
+      "date": "Feb 2023 - Abr 2024",
+      "description": [
+        "Coordinación del equipo del operador del tren, definiendo las actividades diarias.",
+        "Control de escalas: entrada, salida, pausas y horarios de almuerzo.",
+        "Gestión de personas con enfoque en el rendimiento y en un entorno colaborativo.",
+        "Gestión de procesos y cumplimiento de objetivos operativos del tráfico ferroviario."
+    ]
+    }
   }
 }
