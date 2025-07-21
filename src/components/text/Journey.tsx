@@ -33,7 +33,7 @@ export default function Journey() {
 
   return (
     <div className="  bg-white rounded-xl shadow-md mt-2 overflow-hidden container">
-      <div className="p-6">
+      <div className="md:p-6 p-4">
         <motion.section
           className=""
           id="minha jornada"

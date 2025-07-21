@@ -66,11 +66,11 @@ export default function Study() {
             {item.icon}
           </span>
           <div className="flex flex-col px-6">
-            <span className="text-gray-500 text-sm font-medium mb-1 leading-none">
+            <span className="text-gray-500 text-sm font-medium mb-2 leading-none">
               {item.date}
             </span>
 
-            <h3 className="-mt-2">{item.title}</h3>
+            <h3 className="-mt-2 text-black font-bold">{item.title}</h3>
             <p className="text-sm text-gray-500 font-medium -mt-1">
               {item.name}
             </p>

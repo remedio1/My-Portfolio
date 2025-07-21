@@ -35,7 +35,7 @@ export default function ProfileCard() {
             fill
           ></Image>
         </div>
-        <div className="relative p-6">
+        <div className="relative md:p-6 p-4">
           <div className="absolute -top-36 left-6">
             <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-lg">
               <Image

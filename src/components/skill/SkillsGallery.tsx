@@ -23,7 +23,7 @@ const containerVariants = {
 export default function SkillsGallery() {
   return (
     <motion.div
-      className="flex items-center "
+      className="flex-wrap flex items-center "
       variants={containerVariants}
       initial="hidden"
       whileInView={"visible"}

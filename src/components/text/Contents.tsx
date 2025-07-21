@@ -37,7 +37,7 @@ export default function Contents() {
 
   return (
     <div className=" bg-white rounded-xl shadow-md mt-2 overflow-hidden container ">
-      <div className="text-gray-900 relative p-6">
+      <div className="text-gray-900 relative md:p-6 p-4">
         <motion.div
           initial="hidden"
           whileInView={"visible"} // Ou whileInView="visible" se quiser animar ao rolar

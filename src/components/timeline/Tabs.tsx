@@ -52,7 +52,7 @@ export function Tabs() {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -10, opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="relative items-center px-2 flex"
+            className="relative px-2 "
           >
             {activeTab === "educacao" && <Study />}
             {activeTab === "trabalho" && <Work />}

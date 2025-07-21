@@ -17,7 +17,7 @@ const containerVariants = {
 }
     const t = useTranslations('projects');
   return (
-    <div className='bg-white rounded-xl shadow-md mt-2 p-6 container'>
+    <div className='bg-white rounded-xl shadow-md mt-2 md:p-6 p-4 container'>
         <motion.span
         initial="hidden"
         variants={containerVariants}
