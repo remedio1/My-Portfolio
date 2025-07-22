@@ -24,7 +24,7 @@ export default function SideContainer() {
   return (
     <div 
     
-    className=' bg-white rounded-xl shadow-md overflow-hidden mt-2 '>
+    className=' bg-white rounded-xl shadow-md overflow-hidden mt-2 container md:w-1/3 w-full'>
       <motion.div 
         initial = "hidden"
     whileInView={"visible"}

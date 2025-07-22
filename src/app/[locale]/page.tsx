@@ -1,30 +1,28 @@
 import React from "react";
 
 import Contents from "@/components/text/Contents";
-import ProfileCard from "@/components/text/ProfileCard";
+
 import SkillsText from "@/components/text/SkillsText";
 
 import Journey from "../../components/text/Journey";
-import SideContainer from "@/components/LiveElements/SideContainer";
+
 import Projects from "@/components/text/Projects";
 import Timeline from "@/components/text/Timeline";
 import Footer from "@/components/text/Footer";
-
+import Revealer from '../../components/showing_pefil/Revealer';
 
 export default function page() {
   return (
-    <div className="md:max-w-5xl sm:max-w-2xl flex flex-col items-center justify-center min-h-screen md:mx-auto px-4">
-      <div className="md:flex md:flex-row justify-center md:mt-4 md:gap-2  ">
-        <ProfileCard />
+    <div className="px-4 md:flex md:flex-col items-center mt-4 md:max-w-5xl md:mx-auto sm:max-w-2xl sm:mx-auto">
+      
+      <Revealer />
 
-        <SideContainer />
-      </div>
       <Contents />
       <SkillsText />
       <Journey />
       <Projects />
-      <Timeline/>
-      <Footer/>
+      <Timeline />
+      <Footer />
     </div>
   );
 }

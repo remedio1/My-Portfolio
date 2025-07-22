@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 
+
 export default function ProfileCard() {
   const t = useTranslations("profile");
 
@@ -19,14 +20,14 @@ export default function ProfileCard() {
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-md overflow-hidden mt-2 flex-1">
+    <div className="bg-white rounded-xl shadow-md overflow-hidden mt-2 container md:w-2/3">
       <motion.div
         variants={containerVariants}
         initial="hidden"
         viewport={{ once: true, amount: 0.4 }}
         whileInView="visible"
       >
-        <div className=" w-full h-64 relative overflow-hidden">
+        <div className="w-full h-64 relative overflow-hidden">
           <Image
             src={"/fullmetal-alchemist-the-gate.PNG"}
             alt="Background Image"
@@ -56,6 +57,7 @@ export default function ProfileCard() {
             <p className="mt-1 text-gray-400">{t("local")}</p>
           </div>
         </div>
+        
       </motion.div>
     </div>
   );
