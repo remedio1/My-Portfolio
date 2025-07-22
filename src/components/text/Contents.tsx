@@ -64,7 +64,7 @@ export default function Contents() {
             <motion.div variants={itemVariants} className="div mt-2">
               <button className="flex gap-2">
                 <a
-                  href="#contato"
+                  href="https://wa.me/+5511994505618"
                   className="bg-cyan-800 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                 >
                   {t("contact")}
