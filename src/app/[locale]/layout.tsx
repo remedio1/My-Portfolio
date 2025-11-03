@@ -8,7 +8,6 @@ import { QueryProvider } from "../Providers/QueryProvider";
 
 // Components
 import Header from "@/components/Header";
-import Threads from "@/components/Threads";
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />;
 
