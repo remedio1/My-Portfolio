@@ -1,43 +1,39 @@
-import {NextIntlClientProvider, hasLocale} from 'next-intl';
-import {notFound} from 'next/navigation';
-import {routing} from '@/i18n/routing';
-import "../globals.css";
-import {getMessages} from 'next-intl/server';
+import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
+import "@/app/globals.css";
+import { getMessages } from "next-intl/server";
 
-import { QueryProvider } from '../Providers/QueryProvider';
+import { QueryProvider } from "../Providers/QueryProvider";
 
 // Components
 import Header from "@/components/Header";
+import Threads from "@/components/Threads";
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />;
 
-export default async function LanguageLayout ({
+export default async function LanguageLayout({
   children,
-  params
+  params,
 }: {
   children: React.ReactNode;
-  params: Promise<{locale: string}>;
+  params: Promise<{ locale: string }>;
 }) {
   // Ensure that the incoming `locale` is valid
-  const {locale} = await params;
+  const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
   const messages = await getMessages();
   return (
-    <html lang= { locale } className="font-family">
+    <html lang={locale} className="font-family">
       <body className="bg-gray-950 text-gray-100">
         <NextIntlClientProvider locale={locale} messages={messages}>
-          
-        <Header />
-        
-          <QueryProvider>
-          {children}
-          </QueryProvider>
-        
+          <Header />
+
+          <QueryProvider>{children}</QueryProvider>
         </NextIntlClientProvider>
-        
       </body>
     </html>
   );
